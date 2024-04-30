@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="yaap"
+           fetch="https://github.com/yaap"
+           revision="refs/heads/fourteen" />
+
+  <remote  name="xd-devices"
+           fetch="https://github.com/xdroid-devices"
+           revision="refs/heads/fourteen" />
+
+  <project path="device/xiaomi/sunny" remote="xd-devices" name="xd_device_xiaomi_sunny" revision="fourteen" />
+  <project path="vendor/xiaomi/sunny" remote="xd-devices" name="xd_vendor_xiaomi_sunny" revision="fourteen" />
+  <project path="hardware/interfaces" remote="yaap" name="hardware_interfaces" />
+  <project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="fourteen-rn10" />
+  <project path="kernel/xiaomi/sunny" remote="xd-devices" name="kernel_xiaomi_sunny" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="12.0.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="github" name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" revision="12.0.0" />
+  <project path="packages/apps/DisplayFeatures" remote="github" name="cyberknight777/android_packages_apps_DisplayFeatures" revision="master" />
+  <project path="device/qcom/common" remote="yaap" name="device_qcom_common" />
+  <project path="vendor/qcom/common" remote="gitlab" name="YAOSP/vendor_qcom_common" revision="fourteen" />
+  <project path="device/qcom/qssi" remote="github" name="AOSPA/android_device_qcom_qssi" revision="uvite" />
+  <project path="vendor/qcom/opensource/core-utils" remote="yaap" name="vendor_qcom_opensource_core-utils" />
+  <project path="packages/apps/KProfiles" remote="github" name="KProfiles/android_packages_apps_KProfiles" revision="main" />
+</manifest>
